@@ -1,26 +1,28 @@
 # cocapn-colora
 
-Value-conditioned LoRA adapters — adapters shaped by what the agent values.
+Color and visual identity library for the Cocapn Fleet — consistent color schemes, gradients, and theming across fleet vessels.
 
-Not just adapters — adapters shaped by values. Colora conditions LoRA fine-tuning on agent-defined value functions, producing specialized models that reflect fleet priorities.
+## What This Gives You
 
-## What It Does
+- **Fleet color palette** — standardized colors for the Cocapn ecosystem
+- **Theme generation** — dark/light theme support for fleet UIs
+- **Python package** — installable via pip
 
-- **Value Functions** — Define what matters (accuracy, safety, creativity)
-- **Conditioned LoRA** — Fine-tune with value-aware gradient weighting
-- **Adapter Composition** — Stack multiple value-conditioned adapters
-- **Evaluation** — Score adapters against their target values
-
-## Installation
+## Quick Start
 
 ```bash
 pip install cocapn-colora
 ```
 
-## Part of the Cocapn Fleet
+## How It Fits
 
-Used by Forgemaster for LoRA training on the RTX 4050.
+Visual consistency layer for the Cocapn Fleet. Part of the SuperInstance ecosystem.
+
+Related repos:
+- [cocapn-design](https://github.com/SuperInstance/cocapn-design) — design rationale
+- [cocapn-dashboard](https://github.com/SuperInstance/cocapn-dashboard) — fleet dashboard
+- [cocapn-landing](https://github.com/SuperInstance/cocapn-landing) — landing page
 
 ## License
 
-MIT
+Apache 2.0
